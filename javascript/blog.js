@@ -8,5 +8,5 @@ function addToWithReturn(name, msg){
 	$(name).html($(name).html()+msg+"\n<br>\n");
 }
 function include(name){
-	$("div."+name).html(get(name+".html"));
+	$("div."+name).html(get("/"+name+".html"));
 }
