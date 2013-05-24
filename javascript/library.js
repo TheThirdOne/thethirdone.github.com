@@ -2,7 +2,7 @@ function get(url) {
    	return $.ajax({type: "GET", url: url, async: true}).responseText;
 }
 function get(url, funct) {
-   	$.ajax({type: "GET", url: url, async: true, success: funct(data)}).responseText);
+   	$.ajax({type: "GET", url: url, async: true, success: funct(data)});
 }
 function addTo(name, msg){
 	$(name).html($(name).text()+msg);
