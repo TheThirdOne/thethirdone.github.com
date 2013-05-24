@@ -7,7 +7,6 @@ function get(url, funct) {
 function alt(url, funct) {
    	$.ajax({type: "GET", url: url, async: true}).done(funct(data));
 }
-}
 function addTo(name, msg){
 	$(name).html($(name).text()+msg);
 }
