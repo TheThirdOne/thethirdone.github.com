@@ -1,6 +1,9 @@
 function get(url) {
    	return $.ajax({type: "GET", url: url, async: true}).responseText;
 }
+function get(url, funct) {
+   	funct($.ajax({type: "GET", url: url, async: true}).responseText);
+}
 function addTo(name, msg){
 	$(name).html($(name).text()+msg);
 }
