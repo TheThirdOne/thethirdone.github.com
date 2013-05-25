@@ -1,12 +1,12 @@
 CACHE MANIFEST
 
+NETWORK:
+/*
+
 CACHE:
 /javascript/jquery.js
 /javascript/library.js
-/style.css
-
-NETWORK:
-/*
+/style.cs
 
 FALLBACK:
 / /offline.html
