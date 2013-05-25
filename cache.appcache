@@ -1,7 +1,16 @@
 CACHE MANIFEST
 
 CACHE:
-javascript/jquery.js
+/javascript/jquery.js
+/javascript/library.js
+/style.css
+
+NETWORK:
+/index.html
+/projects.html
+/404.html
+/blog/index.html
+/blog/posts/*
 
 FALLBACK:
 / /offline.html
