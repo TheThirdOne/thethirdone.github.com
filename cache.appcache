@@ -6,7 +6,7 @@ NETWORK:
 CACHE:
 /javascript/jquery.js
 /javascript/library.js
-/style.cs
+/style.css
 
 FALLBACK:
 / /offline.html
