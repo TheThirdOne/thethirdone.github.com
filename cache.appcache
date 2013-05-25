@@ -1,0 +1,9 @@
+CACHE MANIFEST
+
+CACHE:
+javascript/jquery.js
+
+FALLBACK:
+/ /offline.html
+
+
