@@ -1,8 +1,5 @@
 CACHE MANIFEST
 
-NETWORK:
-*
-
 CACHE:
 /javascript/jquery.js
 /javascript/library.js
@@ -11,5 +8,7 @@ CACHE:
 FALLBACK:
 / /offline.html
 
+NETWORK:
+*
 
 
