@@ -1,4 +1,4 @@
-function get(url) {
+function fetch(url) {
    	return $.ajax({type: "GET", url: url, async: false}).responseText;
 }
 function get(url, funct) {
